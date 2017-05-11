@@ -200,6 +200,7 @@ Each were trained on the same set of data over the following hyperparameters.
 3. Optimizer         = Adam
 4. Learning rate     = 0.0005
 5. Dropout prob      = 0.5
+6. Batch size        = 128
 
 The parameters were selected according to [section 4.1](#41-choosing-hyperparameters). Adam optimizer was selected because we wanted our learning rate to reflect the trend of optimization path. 
 
