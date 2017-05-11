@@ -265,7 +265,7 @@ We achieved an accuracy of 80%. Indeed, we observed that the 1st image of bumpy 
 To further understand how certain our models are in its predictions, we show the top 5 softmax probabilities. (See `GetTopKSoftmax`)
 
 | 22 : Bumpy road	            |
-|:-----------------------------:|
+|:------------------------------|
 | 26.42% for 14: Stop      		|
 | 24.32% for 17: No entry		|
 | 20.75% for 26: Traffic signals|
@@ -273,7 +273,7 @@ To further understand how certain our models are in its predictions, we show the
 | 4.21% for 22: Bumpy road      |
 
 | 4 : Speed limit (70km/h)				 |
-|:--------------------------------------:|
+|:---------------------------------------|
 | 100.00% for 4: Speed limit (70km/h)	 |
 | 0.00% for 24: Road narrows on the right|
 | 0.00% for 26: Traffic signals    		 |
@@ -281,7 +281,7 @@ To further understand how certain our models are in its predictions, we show the
 | 0.00% for 1: Speed limit (30km/h)	     |
 
 | 11 : Right-of-way at the next intersection					  |
-|:---------------------------------------------------------------:|
+|:----------------------------------------------------------------|
 | 99.99% for 11: Right-of-way at the next intersection		      |
 | 0.00% for 42: End of no passing by vehicles over 3.5 metric tons|
 | 0.00% for 30: Beware of ice/snow							   	  |
@@ -289,7 +289,7 @@ To further understand how certain our models are in its predictions, we show the
 | 0.00% for 27: Pedestrians										  |
 
 | 25 : Road work                  |
-|:-------------------------------:|
+|:--------------------------------|
 | 99.88% for 25: Road work        |
 | 0.11% for 33: Turn right ahead  |
 | 0.01% for 26: Traffic signals   |
@@ -297,7 +297,7 @@ To further understand how certain our models are in its predictions, we show the
 | 0.00% for 29: Bicycles crossing |
 
 | 0 : Speed limit (20km/h)          |
-|:---------------------------------:|
+|:----------------------------------|
 | 99.96% for 0: Speed limit (20km/h)|
 | 0.01% for 37: Go straight or left |
 | 0.01% for 35: Ahead only          |
