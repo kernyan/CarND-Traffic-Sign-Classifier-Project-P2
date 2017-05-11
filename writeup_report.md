@@ -226,13 +226,16 @@ The model achieved a
 
 We found 5 German Traffic Signs\* from the web, which are then cropped and resized to 32x32 as:
 ![alt text][image9]
+
 **See ./examples/NewGerman/References.txt for image credits**
 
 \* It was later found out that one of the images was not a German Traffic Sign. But we kept it there because it served to illustrate interesting properties of our model's prediction.
 
 Of the five images, the first one and the last one might be harder to classify. 
 The first one is not part of a German Traffic Sign and hence was never present in our training dataset. An example of a German's bumpy road sign is 
+
 ![alt text][image10]
+
 which is different from the sign we found in two aspects, 1) bump size is different, 2) background color of yellow instead of white.
 
 On the other hand, the last image is taken at an angle instead of front facing.
@@ -261,6 +264,7 @@ We achieved an accuracy of 80%. Indeed, we observed that the 1st image of bumpy 
 
 To further understand how certain our models are in its predictions, we show the top 5 softmax probabilities. (See `GetTopKSoftmax`)
 
+`
 22 : Bumpy road
 26.42% for 14: Stop
 24.32% for 17: No entry
@@ -295,6 +299,7 @@ To further understand how certain our models are in its predictions, we show the
  0.01% for 35: Ahead only
  0.00% for 23: Slippery road
  0.00% for 28: Children crossing
+`
 
 Again, we notice that our model is quite uncertain in its prediction of Bumpy road because it is a traffic sign it has never been trained on before. Giving us only a 26.42% in the top softmax probability.
 
